@@ -1,10 +1,9 @@
 {
   "name": "commit-msg-regex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validate commit message through regex",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
     "install": "node install.js",
     "uninstall": "node uninstall.js"
   },

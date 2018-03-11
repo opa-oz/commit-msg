@@ -1,6 +1,6 @@
 # commit-msg-regex
 
-[![Version npm][version]](http://browsenpm.org/package/commit-msg-regex)
+[![Version npm][version]](https://www.npmjs.com/package/commit-msg-regex)
 
 [version]: http://img.shields.io/npm/v/commit-msg-regex.svg?style=flat-square
 
