@@ -1,0 +1,26 @@
+{
+  "name": "commit-msg-regex",
+  "version": "1.0.0",
+  "description": "Validate commit message through regex",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "install": "node install.js",
+    "uninstall": "node uninstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opa-oz/commit-msg.git"
+  },
+  "keywords": [
+    "validate",
+    "commit",
+    "message"
+  ],
+  "author": "opa_oz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opa-oz/commit-msg/issues"
+  },
+  "homepage": "https://github.com/opa-oz/commit-msg#readme"
+}
