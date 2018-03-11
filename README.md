@@ -20,7 +20,7 @@ module simply run:
 npm install --save-dev commit-msg-regex
 ```
 
-To install it as `devDependency`. When this module is installed it will override
+When this module is installed it will override
 the existing `commit-msg` file in your `.git/hooks` folder. Existing
 `commit-msg` hooks will be backed up as `commit-msg.old` in the same repository.
 
