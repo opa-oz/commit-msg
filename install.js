@@ -120,6 +120,11 @@ var commitMsgContent = [
     '   exit 1',
     'fi',
 
+    'if [[ "$BRANCH" = "hotfix/"* ]]; then',
+    '   echo "It\'s hotfix branch. Skip validation"',
+    '   exit 0',
+    'fi',
+
     'commit_regex=\'' + regex + '\'',
     'error_msg="' + errorMsg + '"',
 
