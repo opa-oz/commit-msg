@@ -112,6 +112,14 @@ catch (e) {
 var commitMsgContent = [
     '#!/usr/bin/env bash',
 
+    'BRANCH=`git rev-parse --abbrev-ref HEAD`',
+
+    'if [[ "$BRANCH" == "master" || "$BRANCH" == "develop" ]]; then',
+    '   echo "You are on branch $BRANCH. Are you sure you want to commit to this branch?"',
+    '   echo "If so, commit with -n to skip this hook."',
+    '   exit 1',
+    'fi',
+
     'commit_regex=\'' + regex + '\'',
     'error_msg="' + errorMsg + '"',
 

@@ -47,6 +47,9 @@ that specifies regex and error message for commit message:
 }
 ```
 
+### Branch naming
+Commit doesn't work in branches with name, started from `hotfix/`. And totally doesn't work in `master` and `develop`
+
 **commit-msg-regex** based on OpenSource project - Observing. Learn more:
 
 https://github.com/observing/pre-commit
