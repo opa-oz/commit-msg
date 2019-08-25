@@ -40,7 +40,7 @@ that specifies regex and error message for commit message:
     "foo": "echo \"fooo\" && exit 0",
     "bar": "echo \"bar\" && exit 0"
   },
-  "commit-mgs": {
+  "commit-msg": {
     "regex": "([a-z]{5})",
     "error-message": "Need more then 5 symbols"
   }
